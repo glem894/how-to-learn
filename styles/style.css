@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --white-color: #f2f2f2;
-  --dark-gray-color:  #1f1f1f;
-  --light-gray-color: #f2f2f2;
-  --blue-color: #2f80ed;
-  --black-color: #000000;
-}
-
 /* Секция page (контейнер) */
 .page {
   min-width: 1100px;
@@ -17,7 +9,7 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-weight: normal;
-  color: var(--black-color);
+  color: #000000;
 }
 
 /* Секция header */
@@ -27,7 +19,7 @@
   max-height: 756px;
   height: 100vh;
   display: flex;
-  background-color: var(--light-gray-color);
+  background-color: #f2f2f2;
   overflow: hidden;
 }
 
@@ -51,7 +43,7 @@
 }
 
 .header__link {
-  color: var(--blue-color);
+  color: #2f80ed;
   text-decoration: none;
 }
 
@@ -72,7 +64,7 @@
   position: absolute;
   width: 568px;
   height: 568px;
-  background-color: var(--blue-color);
+  background-color: #2f80ed;
   top: 64px;
   right: 0;
 }
@@ -92,7 +84,7 @@
 
 .two-columns__brief {
   width: 175px;
-  color: var(--blue-color);
+  color: #2f80ed;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -129,13 +121,13 @@
   position: relative;
   height: 890px;
   padding-top: 100px;
-  background: no-repeat left bottom url(../images/feynman.png), var(--light-gray-color);
+  background: no-repeat left bottom url(../images/feynman.png), #f2f2f2;
   background-size: 867px 637px;
 }
 
 .feynman__link {
   position: absolute;
-  color: var(--blue-color);
+  color: #2f80ed;
   top: 50%;
   transform: translateY(-50%);
   right: 48px;
@@ -170,7 +162,7 @@
   padding: 90px 0;
   margin: auto;
   width: 100%;
-  background-color: var(--dark-gray-color);
+  background-color: #1f1f1f;
   z-index: 1;
   overflow: hidden;
 }
@@ -190,8 +182,8 @@
 /* Секция footer */
 .footer {
   display: flex;
-  background-color: var(--dark-gray-color);
-  color: var(--white-color);
+  background-color: #1f1f1f;
+  color: #f2f2f2;
   min-height: 350px;
   padding: 60px 0 40px 0;
 }
@@ -225,7 +217,7 @@
 .footer__column-link {
   display: block;
   text-decoration: none;
-  color: var(--white-color);
+  color: #f2f2f2;
   font-size: 18px;
   line-height: 30px;
 }
@@ -310,16 +302,16 @@
 
 /* Тёмная тема */
 .section-title_theme_dark {
-  color: var(--white-color);
+  color: #f2f2f2;
 }
 
 .section-subtitle_theme_dark {
-  color: var(--white-color);
+  color: #f2f2f2;
 }
 
 .table__cell_theme_dark {
   width: 200px;
-  color: var(--white-color);
+  color: #f2f2f2;
   margin-right: 0;
   margin-top: 80px;
 }
